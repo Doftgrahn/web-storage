@@ -1,0 +1,71 @@
+body {
+box-sizing: border-box;
+/* background-image: url(https://wonderfulengineering.com/wp-content/uploads/2014/09/pink-wallpaper-16.jpg); */
+  background-repeat: no-repeat;
+	background-size: cover;
+  background-color: lightpink;
+  font-size: 18px;
+}
+/* @keyframes change{
+0%  { background-color:#1a1919}
+25% { background-color:#be000e}
+50% { background-color:#f6f4f2}
+75% { background-color:#002b6c}
+100%{ background-color:#011e2e}
+} */
+
+
+h1, h2 {
+  letter-spacing: 15px;
+  color: tomato;
+  font-weight: 400;
+  text-align: center;
+  /* animation: blink .5s linear infinite; */
+}
+
+/* @keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+} */
+
+
+p {
+  border: 2px dotted tomato;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 10px 10px hotpink;
+}
+p label {
+   letter-spacing: 5px;
+}
+button {
+  padding: 10px;
+  border-radius: 10px;
+  color: hotpink;
+  box-shadow: 10px 10px tomato;
+  /* transition: .6s sease;
+  animation: change 10s infinite; */
+}
+input[type=text] {
+	background-color: pink;
+	border: 1px solid tomato;
+   padding: 10px;
+   border-radius: 10px;
+}
+ol, ul {
+   list-style: hebrew;
+}
+li {
+   padding: 5px 20px;
+   color: white;
+   margin: 5px auto;
+   width: 80%;
+   border-radius: 5px;
+}
+li:nth-child(even) {
+   background-color: hotpink;
+}
+li:nth-child(odd) {
+   background-color: pink;
+}
